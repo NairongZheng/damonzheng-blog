@@ -7,7 +7,11 @@
 1. 安装ping等工具：`sudo apt-get install iputils-ping`
 2. 安装网络工具（如ifconfig）：`sudo apt-get install net-tools`
 3. 安装telnet：`apt-get install telnet`
-4. 设置终端提示符样式（`~/.bashrc`里）：`PS1="\\e[1;37m[\\e[m\\e[1;32m\\u\\e[m\\e[1;33m@\\e[m\\e[1;35m\\h\\e[m:\\e[m\\$PWD\\e[m\\e[1;37m]\\e[m\\e[1;36m\\e[m$ "`
+4. 设置终端提示符样式（`~/.bashrc`里）：`PS1="\n\e[1;37m[\e[m\e[1;32m\u\e[m\e[1;33m@\e[m\e[1;35m\h\e[m:\e[m\w\e[m\e[1;37m]\e[m\e[1;36m\e[m\n$ "`
+5. 禁止分页显示（`~/.bashrc`里）：
+   1. `export PAGER=cat`
+   2. `export MANPAGER=cat`
+   3. `export GIT_PAGER=cat`
 
 ### 查看信息
 
@@ -154,4 +158,3 @@ fi
 ## 问题
 
 1. [\[linux中按上下左右键为什么变成^\[\[A^\[\[B^\[\[C^\[D](https://www.zhihu.com/question/31429658)：输入`bash`解决
-
