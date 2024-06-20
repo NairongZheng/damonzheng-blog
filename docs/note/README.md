@@ -64,9 +64,7 @@
 5. 测试能否连上某ip跟port：`telnet <ip> <port>`
 6. socket连接测试，跟规则有关系，下面给的是px的测试：
 
-{% content-ref url="socket-lian-jie-ce-shi.md" %}
 [socket-lian-jie-ce-shi.md](socket-lian-jie-ce-shi.md)
-{% endcontent-ref %}
 
 ### ssh操作
 
